@@ -17,7 +17,7 @@ public class Download_manga {
                 .build();
         HttpGet get = new HttpGet(url);
         get.setHeader("Accept","image/webp,image/png,image/svg+xml,image/*;q=0.8,video/*;q=0.8,*/*;q=0.5");
-        get.setHeader("Cookie", "manga-order=last_read; level=5; secure_header=access_key%2Cmid%2Clevel%2Csecurev2_time; securev2=7419e470; securev2_time=1658548762; vipDueDate=0; access_key=92a08ee3be66ca88fdff662cdc942971; expires=1674030899; face=http%3A%2F%2Fi2.hdslb.com%2Fbfs%2Fface%2Fbaef98cdc688a1e8ae8452fb1748642ce0e1b55f.jpg; login=2; mid=59262299; passlogin=1; refresh_token=a3723b5f1c843a6e5cea1deb2dbced71; uname=%E7%BE%8E%E5%88%A9%E5%9D%9A%E7%9A%84%E9%A6%99%E8%95%89%E7%8E%8B; adfly_video_vaild=1659083702%2C8bcdfb52; _ga=GA1.2.1069381401.1658478878; _gid=GA1.2.1273414434.1658478878; UsingLang=zh; visiturl=%2Fmanga%2F; bp_user_id=psd4AXEKgJ7TPLNt_oa2sA; freetoview=3");
+        get.setHeader("Cookie", "你的Cookie");
         get.setHeader("Accept-Encoding", "gzip, deflate, br");
         get.setHeader("Accept-Language", "zh-CN,zh-Hans;q=0.9");
         get.setHeader("Connection", "keep-alive");
